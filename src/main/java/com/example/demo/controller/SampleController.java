@@ -1,0 +1,17 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class SampleController {
+	@GetMapping("/welcome")
+	public String getMessage(Model model)
+	{
+		model.addAttribute("msg","Welcome to JSP page");
+		return "index";
+		
+	}
+
+}
