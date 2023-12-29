@@ -8,6 +8,7 @@ class SbWebMvcJpa1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
