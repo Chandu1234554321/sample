@@ -5,6 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SbWebMvcJpa1ApplicationTests {
+	
 
 	@Test
 	void contextLoads() {
